@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+	<form>
+	  First name:<br>
+	  <input type="text" name="firstname"><br>
+	  Middle Initial:<br>
+	  <input type="text" name="middleinitial"><br>
+	  Last name:<br>
+	  <input type="text" name="lastname"><br>
+	  <br>
+	  Enter your address here:<br>
+	  <textarea name="address" rows="10" cols="25">Enter text...</textarea><br>
+	  <br>
+	  Applicant Occupation:<br>
+	  <input type="text" name="occupation"><br>
+	  Employer name:<br>
+	  <input type="text" name="employer"><br>
+	  <br>
+	  Enter your employer's address here:<br>
+	  <textarea name="address" rows="10" cols="25">Enter text...</textarea><br>
+	  <br>
+	  What type of loan are you applying for?:<br>
+	  <select name="loantype">
+	  <option value="Commercial">Commercial</option>
+	  <option value="Real Estate">Real Estate</option>
+	  <option value="Personal">Personal</option>
+	  <option value="Mortgage">Mortgage</option>
+	  </select>
+	  <br>
+	  <br>
+	  Requested Loan Amount:<br>
+	  <input type="number" name="quantity" min="5" max="100"><br>
+	  <br>
+	  Requested Loan Length:<br>
+	  <input type="radio" name="Length" value="5year"> 5 Year<br>
+	  <input type="radio" name="Length" value="15year"> 15 Year<br>
+	  <input type="radio" name="Length" value="30year"> 30 Year<br>
+	  <br>
+	  Check as many as apply to you:<br>
+	  <input type="checkbox" name="conditions" value="down"> I have a down payment<br>
+	  <input type="checkbox" name="conditions" value="state"> Out of state resident<br>
+	  <input type="checkbox" name="conditions" value="married"> Married<br>
+	  <input type="checkbox" name="conditions" value="loan"> Loan will be co-signed<br>
+	  <br>
+	  <br>
+	  Additional comments here:<br>
+	  <textarea name="address" rows="15" cols="35">Enter text...</textarea><br>
+	  <br>
+	  E-mail:<br>
+	  <input type="email" name="email"><br>
+	  Telephone:<br>
+	  <input type="tel" name="usrtel"><br>
+	  LinkedIn URL:<br>
+	  <input type="url" name="homepage"><br>
+
+	</form>
+</body>
+</html>
